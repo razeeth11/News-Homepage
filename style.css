@@ -156,3 +156,115 @@ button:hover {
   width: 300px;
 }
 
+@media screen and (max-width: 700px) {
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .right-content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .right-content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .left-content-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .left-content-right {
+    width: 100%;
+  }
+
+  .left-content-left {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .navs {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+  
+  .menu-icon:hover {
+    cursor: pointer;
+  }
+
+  .tags{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: white;
+    top: 0;
+    right: 0;
+    width: 80%;
+    height: 100vh;
+    padding-top: 40%;
+  }
+
+  .tags img{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .tags img:hover{
+    cursor: pointer;
+  }
+
+}
